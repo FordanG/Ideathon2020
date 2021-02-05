@@ -237,7 +237,7 @@ overflow:visible;
 	}
 	header.smaller:not(.header-bottom):not(.side-header){
 	height: 70px;
-	background:#101010;
+	background:rgba(63, 140, 255, 0.205);
 	}
 	header.smaller.no-border:not(.header-bottom):not(.side-header){
 	border:none;
@@ -532,7 +532,7 @@ overflow:visible;
 	
 	#mainmenu a,
 	header.transparent.header-light #mainmenu a{
-	color:#fff;
+	color: var(--secondary-color);
 	}
 	
 	#mainmenu li a:after { float:right; position:relative; font-family:"FontAwesome"; content:"\f111"; font-size:6px; margin-left:20px; margin-top:0px; color:#FAB702; }
